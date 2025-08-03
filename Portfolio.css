@@ -1,0 +1,118 @@
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f0f8ff;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #2980b9;
+  margin-bottom: 1rem;
+}
+
+/* ===== Global Styles ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #0077cc;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+/* ===== Section Styling ===== */
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+/* ===== Download Link Style ===== */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Contact Form ===== */
+#contact {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  border-top: 1px solid #ddd;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: auto;
+}
+
+#contact input,
+#contact textarea {
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+#contact textarea {
+  min-height: 120px;
+}
+
+#contact button {
+  padding: 12px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+  background-color: #005fa3;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 20px;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+}
+
